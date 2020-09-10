@@ -48,18 +48,29 @@ public class Minesweeper {
         }
     }
 
-    public  static int inputNum(){
-        Scanner input = new Scanner(System.in);
-        int number = input.nextInt();
-        // input.close();
-        return number;
+    public  static int inputCoord(int n){
+        while (true) {
+            Scanner input = new Scanner(System.in);
+            int number = input.nextInt();
+            if (number >= n || number < 0) {
+                System.out.print("Coordenada invalida, vuelva a ingresar coordenada: ");
+            }
+            else{
+                return number;
+            }
+        }
     }
 
+    public  static int inputBoardSize(){
+        Scanner input = new Scanner(System.in);
+        int number = input.nextInt();
+        return number;
+    }
 
     public static void main(String[] args){
         // logger.info("CS-UTEC Software Engineering I");
         System.out.print("Tamaño del tablero: ");
-        int n = inputNum();
+        int n = inputBoardSize();
         System.out.print("\n");
         int board[][] = generateBoard(n);
         Boolean gameOver = false;
@@ -67,9 +78,9 @@ public class Minesweeper {
         while (!gameOver){
             printBoard(board, n);
             System.out.print("Ingrese coordenada x: ");
-            int x = inputNum();
+            int x = inputCoord(n);
             System.out.print("\nIngrese coordenada y: ");
-            int y = inputNum();
+            int y = inputCoord(n);
             System.out.print("\n");
             gameOver = checkMove(board, x, y);
             if (!gameOver){
