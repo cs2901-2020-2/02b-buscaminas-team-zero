@@ -23,6 +23,18 @@ public class Minesweeper {
         return board;
     }
 
+    public static int countMines(int[][] board,int n){
+        int count = 0;
+        for (int row = 0; row < n; row++){
+            for (int column = 0; column < n; column++){
+                if (board[row][column] == 1){
+                    count++;
+                }
+            }
+        }
+        return count;
+    }
+
     public static int[][] generateBoardStatic(int n){
         int board[][] = new int[n][n];
 
@@ -75,21 +87,28 @@ public class Minesweeper {
         }
     }
 
+    public static int inputCoordString(int n){
+        while (true) {
+            Scanner input = new Scanner(System.in);
+            int number = input.nextInt();
+            if (number >= n || number < 0) {
+                logger.info("Coordenada invalida, vuelva a ingresar coordenada: ");
+            }
+            else{
+                return number;
+            }
+        }
+    }
+
     public static int inputBoardSize(){
         Scanner input = new Scanner(System.in);
         int number = input.nextInt();
         return number;
     }
 
-    //public static void play(int n){
-    public static void main(String[] args){
-        logger.info("Tamaño del tablero: ");
-        int n = inputBoardSize();
-        logger.info("\n");
-        int board[][] = generateBoard(n);
+    public static boolean play(int count, int[][] board,int n){
         Boolean gameOver = false;
-
-        while (!gameOver){
+        for (int i=0 ; i<n*n-count; i++){
             printBoard(board, n);
             logger.info("Ingrese coordenada x: ");
             int x = inputCoord(n);
@@ -100,7 +119,26 @@ public class Minesweeper {
             if (!gameOver){
                 board[x][y] = -1;
             }
+            else{
+                return false;
+            }
         }
+        return true;
     }
 
+    //public static void play(int n){
+    public static void main(String[] args){
+        logger.info("Tamaño del tablero: ");
+        int n = inputBoardSize();
+        logger.info("\n");
+        int board[][] = generateBoard(n);
+        int count = countMines(board,n);
+        
+        boolean win = play(count, board, n);
+        if (win){
+            logger.info("WINNER!!");
+        }else{
+            logger.info("LOSSER");
+        }
+    }
 }
