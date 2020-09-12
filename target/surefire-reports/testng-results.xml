@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-09-12T12:09:31 PET" name="MinesweeperTest" finished-at="2020-09-12T12:09:32 PET" duration-ms="135">
+    <groups>
+    </groups>
+    <test started-at="2020-09-12T12:09:31 PET" name="Command line test" finished-at="2020-09-12T12:09:32 PET" duration-ms="135">
+      <class name="MinesweeperTest">
+        <test-method signature="testCase0()[pri:0, instance:MinesweeperTest@8909f18]" started-at="2020-09-12T12:09:31 PET" name="testCase0" finished-at="2020-09-12T12:09:31 PET" duration-ms="52" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase0 -->
+        <test-method signature="testCase1()[pri:0, instance:MinesweeperTest@8909f18]" started-at="2020-09-12T12:09:31 PET" name="testCase1" finished-at="2020-09-12T12:09:32 PET" duration-ms="51" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase1 -->
+      </class> <!-- MinesweeperTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- MinesweeperTest -->
+</testng-results>
