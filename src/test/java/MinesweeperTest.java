@@ -11,7 +11,7 @@ import java.util.Scanner;
 public class MinesweeperTest {
 
     public void testCase0() throws IOException {
-        generic(0);
+        generateBoardTest(0);
     }
 
     public void testCase1() throws IOException {
@@ -22,13 +22,6 @@ public class MinesweeperTest {
     }
     public void testCase3() throws IOException {
         generic(3);
-    }
-
-    private void generic(int i) throws IOException {
-        int n = readInput(i);
-        List<String> expectedOutput = readOutput(i);
-        List<String> response = Minesweeper.(n);
-        Assert.assertEquals(response, expectedOutput);
     }
 
     public List<String> readFile(int testNumber, String type){
@@ -54,5 +47,29 @@ public class MinesweeperTest {
     private List<String> readOutput(int testNumber){
         List<String> lines = readFile(testNumber, "output");
         return lines;
+    }
+
+    private void generateBoardTest(int i) throws IOException {
+        int n = readInput(i);
+        List<String> expectedOutput = readOutput(i);
+
+        int[][] board = Minesweeper.generateBoardStatic(n);
+
+        List<String> output = new ArrayList<String>();
+
+        for (int row = 0; row < n; row++){
+            for (int column = 0; column < n; column++){
+                output.add(String.valueOf(board[row][column]));
+            }
+        }
+
+        Assert.assertEquals(output, expectedOutput);
+    }
+
+    private void generic(int i) throws IOException {
+        int n = readInput(i);
+        List<String> expectedOutput = readOutput(i);
+        List<String> response = Minesweeper.(n);
+        Assert.assertEquals(response, expectedOutput);
     }
 }
