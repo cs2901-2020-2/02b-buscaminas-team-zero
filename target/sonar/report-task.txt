@@ -3,5 +3,5 @@ projectKey=cs2901-2020-2_02b-buscaminas-team-zero
 serverUrl=https://sonarcloud.io
 serverVersion=8.0.0.11869
 dashboardUrl=https://sonarcloud.io/dashboard?id=cs2901-2020-2_02b-buscaminas-team-zero
-ceTaskId=AXSDllEpwMwqXqXD60S6
-ceTaskUrl=https://sonarcloud.io/api/ce/task?id=AXSDllEpwMwqXqXD60S6
+ceTaskId=AXSE-jU4b_I3iSFzEn72
+ceTaskUrl=https://sonarcloud.io/api/ce/task?id=AXSE-jU4b_I3iSFzEn72

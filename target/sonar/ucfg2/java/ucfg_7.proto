@@ -1,19 +1,19 @@
 
 Minesweeper#inputBoardSize()Iy
-o/home/alonso/NeoVimProjects/UTEC/Software_Engineering_I/02b-buscaminas-team-zero/src/main/java/Minesweeper.javag g($"1*Ý	
+o/home/alonso/NeoVimProjects/UTEC/Software_Engineering_I/02b-buscaminas-team-zero/src/main/java/Minesweeper.javaf f($"1*Ý	
 1y
-o/home/alonso/NeoVimProjects/UTEC/Software_Engineering_I/02b-buscaminas-team-zero/src/main/java/Minesweeper.javah$ h(*§
+o/home/alonso/NeoVimProjects/UTEC/Software_Engineering_I/02b-buscaminas-team-zero/src/main/java/Minesweeper.javag$ g(*§
 ¤
 y
-o/home/alonso/NeoVimProjects/UTEC/Software_Engineering_I/02b-buscaminas-team-zero/src/main/java/Minesweeper.javah$ h(-
+o/home/alonso/NeoVimProjects/UTEC/Software_Engineering_I/02b-buscaminas-team-zero/src/main/java/Minesweeper.javag$ g(-
 %0java.io.InputStream"__id*
 ""ª§
 y
-o/home/alonso/NeoVimProjects/UTEC/Software_Engineering_I/02b-buscaminas-team-zero/src/main/java/Minesweeper.javah h(#
+o/home/alonso/NeoVimProjects/UTEC/Software_Engineering_I/02b-buscaminas-team-zero/src/main/java/Minesweeper.javag g(#
 %1java.util.Scanner"java.util.Scannerî
 ë
 y
-o/home/alonso/NeoVimProjects/UTEC/Software_Engineering_I/02b-buscaminas-team-zero/src/main/java/Minesweeper.javah h(.
+o/home/alonso/NeoVimProjects/UTEC/Software_Engineering_I/02b-buscaminas-team-zero/src/main/java/Minesweeper.javag g(.
 %2"0java.util.Scanner#<init>(Ljava/io/InputStream;)V*
 
 %1java.util.Scanner*
@@ -21,16 +21,16 @@ o/home/alonso/NeoVimProjects/UTEC/Software_Engineering_I/02b-buscaminas-team-zer
 %0java.io.InputStream»
 ¸
 y
-o/home/alonso/NeoVimProjects/UTEC/Software_Engineering_I/02b-buscaminas-team-zero/src/main/java/Minesweeper.javah h(/
+o/home/alonso/NeoVimProjects/UTEC/Software_Engineering_I/02b-buscaminas-team-zero/src/main/java/Minesweeper.javag g(/
 inputjava.util.Scanner"__id*
 
 %1java.util.ScannerÐÍ
 y
-o/home/alonso/NeoVimProjects/UTEC/Software_Engineering_I/02b-buscaminas-team-zero/src/main/java/Minesweeper.javai i($	
+o/home/alonso/NeoVimProjects/UTEC/Software_Engineering_I/02b-buscaminas-team-zero/src/main/java/Minesweeper.javah h(	
 %3int"java.util.Scanner#nextInt()I*
 
 inputjava.util.Scanner2	nextInt()"ƒ
 y
-o/home/alonso/NeoVimProjects/UTEC/Software_Engineering_I/02b-buscaminas-team-zero/src/main/java/Minesweeper.javaj j(
+o/home/alonso/NeoVimProjects/UTEC/Software_Engineering_I/02b-buscaminas-team-zero/src/main/java/Minesweeper.javah h(
 ""B"
 Minesweeper

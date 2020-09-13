@@ -67,57 +67,40 @@ doubles(J):java.util.Random#doubles(J)Ljava/util/stream/DoubleStream;*
 
 nextLong()java.util.Random#nextLong()Jh
 )writeObject(Ljava/io/ObjectOutputStream;);java.util.Random#writeObject(Ljava/io/ObjectOutputStream;)V.
-resetSeed(J)java.util.Random#resetSeed(J)V†
-&java.util.concurrent.ThreadLocalRandomjava.util.RandomT
-internalNextLong(JJ)<java.util.concurrent.ThreadLocalRandom#internalNextLong(JJ)J:
-next(I)/java.util.concurrent.ThreadLocalRandom#next(I)IB
-nextLong(J)3java.util.concurrent.ThreadLocalRandom#nextLong(J)JD
-nextDouble()4java.util.concurrent.ThreadLocalRandom#nextDouble()D<
-mix64(J)0java.util.concurrent.ThreadLocalRandom#mix64(J)Je
-	current()Xjava.util.concurrent.ThreadLocalRandom#current()Ljava/util/concurrent/ThreadLocalRandom;`
-doubles(DD)Qjava.util.concurrent.ThreadLocalRandom#doubles(DD)Ljava/util/stream/DoubleStream;@
+resetSeed(J)java.util.Random#resetSeed(J)VÑ
+java.security.SecureRandomjava.util.Randomc
+getParameters()Pjava.security.SecureRandom#getParameters()Ljava/security/SecureRandomParameters;
+1getInstance(Ljava/lang/String;Ljava/lang/String;)hjava.security.SecureRandom#getInstance(Ljava/lang/String;Ljava/lang/String;)Ljava/security/SecureRandom;F
+getDefaultPRNG(Z[B)/java.security.SecureRandom#getDefaultPRNG(Z[B)V.
+next(I)#java.security.SecureRandom#next(I)I?
+generateSeed(I),java.security.SecureRandom#generateSeed(I)[B†
+3nextBytes([BLjava/security/SecureRandomParameters;)Ojava.security.SecureRandom#nextBytes([BLjava/security/SecureRandomParameters;)VM
+getAlgorithm();java.security.SecureRandom#getAlgorithm()Ljava/lang/String;Q
+getProvider()@java.security.SecureRandom#getProvider()Ljava/security/Provider;0
+<init>()$java.security.SecureRandom#<init>()V>
+getThreadSafe()+java.security.SecureRandom#getThreadSafe()ZS
+getProviderName()>java.security.SecureRandom#getProviderName()Ljava/lang/String;:
+nextBytes([B))java.security.SecureRandom#nextBytes([B)V©
+7getInstance(Ljava/lang/String;Ljava/security/Provider;)njava.security.SecureRandom#getInstance(Ljava/lang/String;Ljava/security/Provider;)Ljava/security/SecureRandom;E
+longToByteArray(J)/java.security.SecureRandom#longToByteArray(J)[Ba
+getInstanceStrong()Jjava.security.SecureRandom#getInstanceStrong()Ljava/security/SecureRandom;Â
+Q<init>(Ljava/security/SecureRandomSpi;Ljava/security/Provider;Ljava/lang/String;)mjava.security.SecureRandom#<init>(Ljava/security/SecureRandomSpi;Ljava/security/Provider;Ljava/lang/String;)Vž
+?<init>(Ljava/security/SecureRandomSpi;Ljava/security/Provider;)[java.security.SecureRandom#<init>(Ljava/security/SecureRandomSpi;Ljava/security/Provider;)VE
 
-nextSeed()2java.util.concurrent.ThreadLocalRandom#nextSeed()JB
-nextFloat()3java.util.concurrent.ThreadLocalRandom#nextFloat()FD
-nextLong(JJ)4java.util.concurrent.ThreadLocalRandom#nextLong(JJ)JB
-localInit()3java.util.concurrent.ThreadLocalRandom#localInit()VS
-ints()Ijava.util.concurrent.ThreadLocalRandom#ints()Ljava/util/stream/IntStream;<
-<init>()0java.util.concurrent.ThreadLocalRandom#<init>()V<
-mix32(J)0java.util.concurrent.ThreadLocalRandom#mix32(J)IÝ
-XsetInheritedAccessControlContext(Ljava/lang/Thread;Ljava/security/AccessControlContext;)€java.util.concurrent.ThreadLocalRandom#setInheritedAccessControlContext(Ljava/lang/Thread;Ljava/security/AccessControlContext;)VX
-longs(J)Ljava.util.concurrent.ThreadLocalRandom#longs(J)Ljava/util/stream/LongStream;U
-ints(J)Jjava.util.concurrent.ThreadLocalRandom#ints(J)Ljava/util/stream/IntStream;J
-advanceProbe(I)7java.util.concurrent.ThreadLocalRandom#advanceProbe(I)IZ
-	longs(JJ)Mjava.util.concurrent.ThreadLocalRandom#longs(JJ)Ljava/util/stream/LongStream;@
+toString()7java.security.SecureRandom#toString()Ljava/lang/String;4
 
-getProbe()2java.util.concurrent.ThreadLocalRandom#getProbe()IR
-internalNextInt(II);java.util.concurrent.ThreadLocalRandom#internalNextInt(II)Iv
-%eraseThreadLocals(Ljava/lang/Thread;)Mjava.util.concurrent.ThreadLocalRandom#eraseThreadLocals(Ljava/lang/Thread;)VW
-ints(II)Kjava.util.concurrent.ThreadLocalRandom#ints(II)Ljava/util/stream/IntStream;>
-	nextInt()1java.util.concurrent.ThreadLocalRandom#nextInt()IH
-nextDouble(DD)6java.util.concurrent.ThreadLocalRandom#nextDouble(DD)DF
-nextDouble(D)5java.util.concurrent.ThreadLocalRandom#nextDouble(D)D\
+<init>([B)&java.security.SecureRandom#<init>([B)V|
+.reseed(Ljava/security/SecureRandomParameters;)Jjava.security.SecureRandom#reseed(Ljava/security/SecureRandomParameters;)Vê
+WgetInstance(Ljava/lang/String;Ljava/security/SecureRandomParameters;Ljava/lang/String;)Žjava.security.SecureRandom#getInstance(Ljava/lang/String;Ljava/security/SecureRandomParameters;Ljava/lang/String;)Ljava/security/SecureRandom;6
+setSeed([B)'java.security.SecureRandom#setSeed([B)V5
 
-longs(JJJ)Njava.util.concurrent.ThreadLocalRandom#longs(JJJ)Ljava/util/stream/LongStream;@
+getSeed(I)'java.security.SecureRandom#getSeed(I)[B0
+reseed()$java.security.SecureRandom#reseed()Vy
+getInstance(Ljava/lang/String;)Vjava.security.SecureRandom#getInstance(Ljava/lang/String;)Ljava/security/SecureRandom;4
 
-nextInt(I)2java.util.concurrent.ThreadLocalRandom#nextInt(I)I\
-	doubles()Ojava.util.concurrent.ThreadLocalRandom#doubles()Ljava/util/stream/DoubleStream;B
-nextInt(II)3java.util.concurrent.ThreadLocalRandom#nextInt(II)IV
-longs()Kjava.util.concurrent.ThreadLocalRandom#longs()Ljava/util/stream/LongStream;@
-
-setSeed(J)2java.util.concurrent.ThreadLocalRandom#setSeed(J)VH
-nextGaussian()6java.util.concurrent.ThreadLocalRandom#nextGaussian()DF
-nextBoolean()5java.util.concurrent.ThreadLocalRandom#nextBoolean()ZY
-	ints(JII)Ljava.util.concurrent.ThreadLocalRandom#ints(JII)Ljava/util/stream/IntStream;X
-internalNextDouble(DD)>java.util.concurrent.ThreadLocalRandom#internalNextDouble(DD)Db
-doubles(JDD)Rjava.util.concurrent.ThreadLocalRandom#doubles(JDD)Ljava/util/stream/DoubleStream;R
-nextSecondarySeed();java.util.concurrent.ThreadLocalRandom#nextSecondarySeed()I^
-
-doubles(J)Pjava.util.concurrent.ThreadLocalRandom#doubles(J)Ljava/util/stream/DoubleStream;@
-
-nextLong()2java.util.concurrent.ThreadLocalRandom#nextLong()J~
-)writeObject(Ljava/io/ObjectOutputStream;)Qjava.util.concurrent.ThreadLocalRandom#writeObject(Ljava/io/ObjectOutputStream;)VW
-readResolve()Fjava.util.concurrent.ThreadLocalRandom#readResolve()Ljava/lang/Object;ó]
+setSeed(J)&java.security.SecureRandom#setSeed(J)Vö
+]getInstance(Ljava/lang/String;Ljava/security/SecureRandomParameters;Ljava/security/Provider;)”java.security.SecureRandom#getInstance(Ljava/lang/String;Ljava/security/SecureRandomParameters;Ljava/security/Provider;)Ljava/security/SecureRandom;Å
+EgetInstance(Ljava/lang/String;Ljava/security/SecureRandomParameters;)|java.security.SecureRandom#getInstance(Ljava/lang/String;Ljava/security/SecureRandomParameters;)Ljava/security/SecureRandom;ó]
 java.util.logging.Loggerjava.lang.ObjectF
 isLevelInitialized().java.util.logging.Logger#isLevelInitialized()Zd
 #fine(Ljava/util/function/Supplier;)=java.util.logging.Logger#fine(Ljava/util/function/Supplier;)V”
@@ -326,4 +309,26 @@ I<init>(Ljava/nio/channels/ReadableByteChannel;Ljava/nio/charset/Charset;)\java
 
 nextInt(I)java.util.Scanner#nextInt(I)I7
 reset(),java.util.Scanner#reset()Ljava/util/Scanner;=
-hasNextBigInteger()&java.util.Scanner#hasNextBigInteger()Z
+hasNextBigInteger()&java.util.Scanner#hasNextBigInteger()Z(
+java.lang.Comparablejava.lang.Object”	
+java.lang.Booleanjava.lang.Comparablejava.lang.Objectjava.io.Serializable_
+valueOf(Ljava/lang/String;)@java.lang.Boolean#valueOf(Ljava/lang/String;)Ljava/lang/Boolean;W
+ parseBoolean(Ljava/lang/String;)3java.lang.Boolean#parseBoolean(Ljava/lang/String;)ZK
+equals(Ljava/lang/Object;)-java.lang.Boolean#equals(Ljava/lang/Object;)Z3
+booleanValue()!java.lang.Boolean#booleanValue()Z<
+
+toString().java.lang.Boolean#toString()Ljava/lang/String;>
+toString(Z)/java.lang.Boolean#toString(Z)Ljava/lang/String;=
+
+valueOf(Z)/java.lang.Boolean#valueOf(Z)Ljava/lang/Boolean;1
+logicalOr(ZZ) java.lang.Boolean#logicalOr(ZZ)Z+
+
+hashCode()java.lang.Boolean#hashCode()I3
+logicalXor(ZZ)!java.lang.Boolean#logicalXor(ZZ)Z-
+compare(ZZ)java.lang.Boolean#compare(ZZ)I-
+hashCode(Z)java.lang.Boolean#hashCode(Z)I3
+logicalAnd(ZZ)!java.lang.Boolean#logicalAnd(ZZ)ZS
+compareTo(Ljava/lang/Boolean;)1java.lang.Boolean#compareTo(Ljava/lang/Boolean;)IK
+<init>(Ljava/lang/String;)-java.lang.Boolean#<init>(Ljava/lang/String;)V)
+	<init>(Z)java.lang.Boolean#<init>(Z)VS
+getBoolean(Ljava/lang/String;)1java.lang.Boolean#getBoolean(Ljava/lang/String;)Z

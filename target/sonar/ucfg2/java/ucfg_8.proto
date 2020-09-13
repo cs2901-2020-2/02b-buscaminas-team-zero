@@ -1,16 +1,16 @@
 
 Minesweeper#play(I[[II)Zy
-o/home/alonso/NeoVimProjects/UTEC/Software_Engineering_I/02b-buscaminas-team-zero/src/main/java/Minesweeper.javam m("7*„
+o/home/alonso/NeoVimProjects/UTEC/Software_Engineering_I/02b-buscaminas-team-zero/src/main/java/Minesweeper.javak k("7*„
 3y
-o/home/alonso/NeoVimProjects/UTEC/Software_Engineering_I/02b-buscaminas-team-zero/src/main/java/Minesweeper.java{ {("ƒ
+o/home/alonso/NeoVimProjects/UTEC/Software_Engineering_I/02b-buscaminas-team-zero/src/main/java/Minesweeper.javay y("ƒ
 y
-o/home/alonso/NeoVimProjects/UTEC/Software_Engineering_I/02b-buscaminas-team-zero/src/main/java/Minesweeper.java{ {(
-""*Ó
+o/home/alonso/NeoVimProjects/UTEC/Software_Engineering_I/02b-buscaminas-team-zero/src/main/java/Minesweeper.javay y(
+""*•
 5y
-o/home/alonso/NeoVimProjects/UTEC/Software_Engineering_I/02b-buscaminas-team-zero/src/main/java/Minesweeper.javap p(Ê
+o/home/alonso/NeoVimProjects/UTEC/Software_Engineering_I/02b-buscaminas-team-zero/src/main/java/Minesweeper.javan n(Ê
 Ç
 y
-o/home/alonso/NeoVimProjects/UTEC/Software_Engineering_I/02b-buscaminas-team-zero/src/main/java/Minesweeper.javap p( 
+o/home/alonso/NeoVimProjects/UTEC/Software_Engineering_I/02b-buscaminas-team-zero/src/main/java/Minesweeper.javan n( 
 
 %0void"Minesweeper#printBoard([[II)V*"
 Minesweeper*
@@ -18,11 +18,11 @@ o/home/alonso/NeoVimProjects/UTEC/Software_Engineering_I/02b-buscaminas-team-zer
 ""¬
 ©
 y
-o/home/alonso/NeoVimProjects/UTEC/Software_Engineering_I/02b-buscaminas-team-zero/src/main/java/Minesweeper.javaq q(
+o/home/alonso/NeoVimProjects/UTEC/Software_Engineering_I/02b-buscaminas-team-zero/src/main/java/Minesweeper.javao o(
 %1java.util.logging.Logger"__id*
 ""–“
 y
-o/home/alonso/NeoVimProjects/UTEC/Software_Engineering_I/02b-buscaminas-team-zero/src/main/java/Minesweeper.javaq q(1
+o/home/alonso/NeoVimProjects/UTEC/Software_Engineering_I/02b-buscaminas-team-zero/src/main/java/Minesweeper.javao o(1
 
 %2void"2java.util.logging.Logger#info(Ljava/lang/String;)V* 
 
@@ -30,17 +30,17 @@ o/home/alonso/NeoVimProjects/UTEC/Software_Engineering_I/02b-buscaminas-team-zer
 Ingrese coordenada x: 2info(Ljava/lang/String;)¾
 »
 y
-o/home/alonso/NeoVimProjects/UTEC/Software_Engineering_I/02b-buscaminas-team-zero/src/main/java/Minesweeper.javar r(!	
+o/home/alonso/NeoVimProjects/UTEC/Software_Engineering_I/02b-buscaminas-team-zero/src/main/java/Minesweeper.javap p(!	
 %3int"Minesweeper#inputCoord(I)I*"
 Minesweeper*
 ""¬
 ©
 y
-o/home/alonso/NeoVimProjects/UTEC/Software_Engineering_I/02b-buscaminas-team-zero/src/main/java/Minesweeper.javas s(
+o/home/alonso/NeoVimProjects/UTEC/Software_Engineering_I/02b-buscaminas-team-zero/src/main/java/Minesweeper.javaq q(
 %4java.util.logging.Logger"__id*
 ""˜•
 y
-o/home/alonso/NeoVimProjects/UTEC/Software_Engineering_I/02b-buscaminas-team-zero/src/main/java/Minesweeper.javas s(3
+o/home/alonso/NeoVimProjects/UTEC/Software_Engineering_I/02b-buscaminas-team-zero/src/main/java/Minesweeper.javaq q(3
 
 %5void"2java.util.logging.Logger#info(Ljava/lang/String;)V* 
 
@@ -48,17 +48,17 @@ o/home/alonso/NeoVimProjects/UTEC/Software_Engineering_I/02b-buscaminas-team-zer
 \nIngrese coordenada y: 2info(Ljava/lang/String;)¾
 »
 y
-o/home/alonso/NeoVimProjects/UTEC/Software_Engineering_I/02b-buscaminas-team-zero/src/main/java/Minesweeper.javat t(!	
+o/home/alonso/NeoVimProjects/UTEC/Software_Engineering_I/02b-buscaminas-team-zero/src/main/java/Minesweeper.javar r(!	
 %6int"Minesweeper#inputCoord(I)I*"
 Minesweeper*
 ""¬
 ©
 y
-o/home/alonso/NeoVimProjects/UTEC/Software_Engineering_I/02b-buscaminas-team-zero/src/main/java/Minesweeper.javau u(
+o/home/alonso/NeoVimProjects/UTEC/Software_Engineering_I/02b-buscaminas-team-zero/src/main/java/Minesweeper.javas s(
 %7java.util.logging.Logger"__id*
 ""‚ÿ
 y
-o/home/alonso/NeoVimProjects/UTEC/Software_Engineering_I/02b-buscaminas-team-zero/src/main/java/Minesweeper.javau u(
+o/home/alonso/NeoVimProjects/UTEC/Software_Engineering_I/02b-buscaminas-team-zero/src/main/java/Minesweeper.javas s(
 
 %8void"2java.util.logging.Logger#info(Ljava/lang/String;)V* 
 
@@ -66,7 +66,7 @@ o/home/alonso/NeoVimProjects/UTEC/Software_Engineering_I/02b-buscaminas-team-zer
 \n2info(Ljava/lang/String;)ñ
 î
 y
-o/home/alonso/NeoVimProjects/UTEC/Software_Engineering_I/02b-buscaminas-team-zero/src/main/java/Minesweeper.javav v(-
+o/home/alonso/NeoVimProjects/UTEC/Software_Engineering_I/02b-buscaminas-team-zero/src/main/java/Minesweeper.javat t(-
 %9java.lang.Boolean"/Minesweeper#checkMove([[III)Ljava/lang/Boolean;*"
 Minesweeper*
 ""*
@@ -74,26 +74,38 @@ o/home/alonso/NeoVimProjects/UTEC/Software_Engineering_I/02b-buscaminas-team-zer
 ""¾
 »
 y
-o/home/alonso/NeoVimProjects/UTEC/Software_Engineering_I/02b-buscaminas-team-zero/src/main/java/Minesweeper.javav v(-
+o/home/alonso/NeoVimProjects/UTEC/Software_Engineering_I/02b-buscaminas-team-zero/src/main/java/Minesweeper.javat t(-
 gameOverjava.lang.Boolean"__id*
 
-%9java.lang.Boolean*	
+%9java.lang.Boolean¦
+£
+y
+o/home/alonso/NeoVimProjects/UTEC/Software_Engineering_I/02b-buscaminas-team-zero/src/main/java/Minesweeper.javau u(
+%10java.lang.Boolean"__id*
+""–“
+y
+o/home/alonso/NeoVimProjects/UTEC/Software_Engineering_I/02b-buscaminas-team-zero/src/main/java/Minesweeper.javau u(.
+%11boolean"-java.lang.Boolean#equals(Ljava/lang/Object;)Z*
+
+%10java.lang.Boolean*
+
+gameOverjava.lang.Boolean2equals(Ljava/lang/Object;)*	
 3
 5
 1*´
 7y
-o/home/alonso/NeoVimProjects/UTEC/Software_Engineering_I/02b-buscaminas-team-zero/src/main/java/Minesweeper.javan n( «
+o/home/alonso/NeoVimProjects/UTEC/Software_Engineering_I/02b-buscaminas-team-zero/src/main/java/Minesweeper.javal l( «
 ¨
 y
-o/home/alonso/NeoVimProjects/UTEC/Software_Engineering_I/02b-buscaminas-team-zero/src/main/java/Minesweeper.javan n(!
+o/home/alonso/NeoVimProjects/UTEC/Software_Engineering_I/02b-buscaminas-team-zero/src/main/java/Minesweeper.javal l(!
 gameOverjava.lang.Boolean"__id*
 ""*
 5
 1*„
 1y
-o/home/alonso/NeoVimProjects/UTEC/Software_Engineering_I/02b-buscaminas-team-zero/src/main/java/Minesweeper.java~ ~("ƒ
+o/home/alonso/NeoVimProjects/UTEC/Software_Engineering_I/02b-buscaminas-team-zero/src/main/java/Minesweeper.java| |("ƒ
 y
-o/home/alonso/NeoVimProjects/UTEC/Software_Engineering_I/02b-buscaminas-team-zero/src/main/java/Minesweeper.java~ ~(
+o/home/alonso/NeoVimProjects/UTEC/Software_Engineering_I/02b-buscaminas-team-zero/src/main/java/Minesweeper.java| |(
 "":
 "":
 "":

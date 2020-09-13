@@ -1,24 +1,41 @@
 
 Minesweeper#generateBoard(I)[[Iy
-o/home/alonso/NeoVimProjects/UTEC/Software_Engineering_I/02b-buscaminas-team-zero/src/main/java/Minesweeper.java (("5"1*Å
+o/home/alonso/NeoVimProjects/UTEC/Software_Engineering_I/02b-buscaminas-team-zero/src/main/java/Minesweeper.java	 	(("9*ê
 5y
-o/home/alonso/NeoVimProjects/UTEC/Software_Engineering_I/02b-buscaminas-team-zero/src/main/java/Minesweeper.java (²
-¯
+o/home/alonso/NeoVimProjects/UTEC/Software_Engineering_I/02b-buscaminas-team-zero/src/main/java/Minesweeper.java (áÞ
 y
-o/home/alonso/NeoVimProjects/UTEC/Software_Engineering_I/02b-buscaminas-team-zero/src/main/java/Minesweeper.java  (;,
-%0&java.util.concurrent.ThreadLocalRandom"Xjava.util.concurrent.ThreadLocalRandom#current()Ljava/util/concurrent/ThreadLocalRandom;**"(
-&java.util.concurrent.ThreadLocalRandom‡„
+o/home/alonso/NeoVimProjects/UTEC/Software_Engineering_I/02b-buscaminas-team-zero/src/main/java/Minesweeper.java  (1	
+%2int"java.util.Random#nextInt(I)I*&
+$
+randomjava.security.SecureRandom*22
+nextInt(I)*
+5
+1*ç
+9y
+o/home/alonso/NeoVimProjects/UTEC/Software_Engineering_I/02b-buscaminas-team-zero/src/main/java/Minesweeper.java
+  
+(!¼¹
 y
-o/home/alonso/NeoVimProjects/UTEC/Software_Engineering_I/02b-buscaminas-team-zero/src/main/java/Minesweeper.java  (I	
-%1int"3java.util.concurrent.ThreadLocalRandom#nextInt(II)I*.
-,
-%0&java.util.concurrent.ThreadLocalRandom*2*22nextInt(II)*
+o/home/alonso/NeoVimProjects/UTEC/Software_Engineering_I/02b-buscaminas-team-zero/src/main/java/Minesweeper.java" (. 
+%0java.security.SecureRandom"java.security.SecureRandomÎ
+Ë
+y
+o/home/alonso/NeoVimProjects/UTEC/Software_Engineering_I/02b-buscaminas-team-zero/src/main/java/Minesweeper.java (0
+%1"$java.security.SecureRandom#<init>()V*"
+ 
+%0java.security.SecureRandomÎ
+Ë
+y
+o/home/alonso/NeoVimProjects/UTEC/Software_Engineering_I/02b-buscaminas-team-zero/src/main/java/Minesweeper.java (1$
+randomjava.security.SecureRandom"__id*"
+ 
+%0java.security.SecureRandom*
 5
 1*„
 1y
-o/home/alonso/NeoVimProjects/UTEC/Software_Engineering_I/02b-buscaminas-team-zero/src/main/java/Minesweeper.java ("ƒ
+o/home/alonso/NeoVimProjects/UTEC/Software_Engineering_I/02b-buscaminas-team-zero/src/main/java/Minesweeper.java ("ƒ
 y
-o/home/alonso/NeoVimProjects/UTEC/Software_Engineering_I/02b-buscaminas-team-zero/src/main/java/Minesweeper.java (
+o/home/alonso/NeoVimProjects/UTEC/Software_Engineering_I/02b-buscaminas-team-zero/src/main/java/Minesweeper.java (
 "":
 ""B"
 Minesweeper

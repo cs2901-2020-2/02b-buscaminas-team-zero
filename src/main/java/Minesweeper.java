@@ -1,5 +1,5 @@
 import java.util.logging.Logger;
-import java.util.concurrent.ThreadLocalRandom;
+import java.security.SecureRandom;
 import java.util.Scanner;
 
 public class Minesweeper {
@@ -8,12 +8,13 @@ public class Minesweeper {
 
     public  static int[][] generateBoard(int n){
         int[][] board = new int[n][n];
+        SecureRandom random = new SecureRandom();
 
         for (int row = 0; row < n; row++){
             for (int column = 0; column < n; column++){
                 board[row][column] = 0;
-                int randomNum = ThreadLocalRandom.current().nextInt(1, 6);
-                if (randomNum == 5){
+                int randomNum = random.nextInt(5);
+                if (randomNum == 4){
                     board[row][column] = 1;
                 }
             }
@@ -100,11 +101,11 @@ public class Minesweeper {
 
     public static int inputBoardSize(){
         Scanner input = new Scanner(System.in);
-        int number = input.nextInt();
-        return number;
+        return input.nextInt();
     }
 
     public static boolean play(int count, int[][] board,int n){
+        Boolean gameOver = false;
         for (int i = 0 ; i < n*n-count; i++){
             printBoard(board, n);
             logger.info("Ingrese coordenada x: ");
@@ -112,7 +113,8 @@ public class Minesweeper {
             logger.info("\nIngrese coordenada y: ");
             int y = inputCoord(n);
             logger.info("\n");
-            if (!checkMove(board, x, y)){
+            gameOver = checkMove(board, x, y);
+            if (Boolean.FALSE.equals(gameOver)){
                 board[x][y] = -1;
             }
             else{
