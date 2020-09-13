@@ -1,5 +1,3 @@
-//import java.util.ArrayList;
-//import java.util.List;
 import java.util.logging.Logger;
 import java.util.concurrent.ThreadLocalRandom;
 import java.util.Scanner;
@@ -9,7 +7,7 @@ public class Minesweeper {
     static final Logger logger = Logger.getLogger(Minesweeper.class.getName());
 
     public  static int[][] generateBoard(int n){
-        int board[][] = new int[n][n];
+        int[][] board = new int[n][n];
 
         for (int row = 0; row < n; row++){
             for (int column = 0; column < n; column++){
@@ -36,7 +34,7 @@ public class Minesweeper {
     }
 
     public static int[][] generateBoardStatic(int n){
-        int board[][] = new int[n][n];
+        int[][] board = new int[n][n];
 
         for (int row = 0; row < n; row++){
             for (int column = 0; column < n; column++){
@@ -107,16 +105,14 @@ public class Minesweeper {
     }
 
     public static boolean play(int count, int[][] board,int n){
-        Boolean gameOver = false;
-        for (int i=0 ; i<n*n-count; i++){
+        for (int i = 0 ; i < n*n-count; i++){
             printBoard(board, n);
             logger.info("Ingrese coordenada x: ");
             int x = inputCoord(n);
             logger.info("\nIngrese coordenada y: ");
             int y = inputCoord(n);
             logger.info("\n");
-            gameOver = checkMove(board, x, y);
-            if (!gameOver){
+            if (!checkMove(board, x, y)){
                 board[x][y] = -1;
             }
             else{
@@ -126,12 +122,11 @@ public class Minesweeper {
         return true;
     }
 
-    //public static void play(int n){
     public static void main(String[] args){
         logger.info("Tamaño del tablero: ");
         int n = inputBoardSize();
         logger.info("\n");
-        int board[][] = generateBoard(n);
+        int[][] board = generateBoard(n);
         int count = countMines(board,n);
         
         boolean win = play(count, board, n);
